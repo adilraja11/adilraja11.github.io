@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color:#073b4c;
+  background-color: #073b4c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffd166;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #06d6a0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fcfbf7;
+}
+
+p {
+  background-color: #fcfbf7;
+  border: 2px solid black;
+  height: 150px;
+  margin-right: 10px;
+  padding: 40px 10px 5px 10px;
+  overflow: auto;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#container {
+  position: relative;
+  
+}
+
+#p1 {
+  background-color: #118ab2;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  overflow: hidden;
+}
+#p2 {
+  background-color: #ef476f;
+  color: #fcfbf7;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  overflow: hidden;
+}
+
+#p3 {
+  background-color: #ffd166;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  overflow: hidden;
+}
+
